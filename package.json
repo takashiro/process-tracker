@@ -1,0 +1,33 @@
+{
+  "name": "process-tracker",
+  "version": "0.0.0",
+  "description": "Track process status to measure capacity of your applications.",
+  "type": "module",
+  "main": "dist",
+  "scripts": {
+    "test": "npm run lint && npm run jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/takashiro/process-tracker.git"
+  },
+  "keywords": [
+    "ps",
+    "capacity",
+    "test",
+    "process",
+    "cpu",
+    "memory"
+  ],
+  "author": "Kazuichi Takashiro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/takashiro/process-tracker/issues"
+  },
+  "homepage": "https://github.com/takashiro/process-tracker#readme",
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.3",
+    "typescript": "^5.5.3"
+  }
+}
